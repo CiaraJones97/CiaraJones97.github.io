@@ -166,6 +166,7 @@ function App() {
               name="pin"
               id="pin"
               type="password"
+              placeholder="1234-1234-1234-1234"
               title="Digits are formatted with dashes in groups of four"
               pattern="\d{4}-\d{4}-\d{4}-\d{4}"
               value={formData.pin}
