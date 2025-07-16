@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.styled-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0px;
+  background-color: rgba(71,157,175,.9);
+}
+
+.styled-form h2 {
+  margin: 0;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  color: #fff;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.form-field input {
+  font-size: 1rem;
+  padding: 0.2rem;
+  width: 100%;
+  text-align: left;
+  transition: border 0.2s;
+  outline: none;
+}
+
+.currency-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.currency-wrapper .prefix {
+  padding: 0.2rem;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.currency-wrapper input {
+  width: 100%;
+  border: none;
+}
+
+.currency-wrapper input:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  border-radius: 0px;
+  border: 1px solid #fff;
+  padding: 0.9rem;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: inherit;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover, 
+button:focus,
+button:focus-visible {
+  color: #56acbd;
+  border-color: #56acbd;
+  background-color: #101010;
+  outline: none;
+}
+
+
+
+
